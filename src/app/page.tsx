@@ -34,7 +34,10 @@ export default function HomePage() {
   return (
     <div className="overflow-hidden">
       {/* HERO */}
-      <section className="dot-grid relative bg-gradient-to-b from-navy-deep via-navy to-navy-light px-5 py-24 text-center text-white">
+      <section
+        className="dot-grid relative px-5 py-24 text-center text-white"
+        style={{ backgroundColor: "#081D42" }}
+      >
         <GradientBlobs variant="dark" />
 
         <div className="relative mx-auto max-w-3xl">
