@@ -40,7 +40,10 @@ export default function AboutPage() {
   return (
     <div>
       {/* HERO PROFILE */}
-      <section className="dot-grid relative overflow-hidden bg-gradient-to-b from-navy-deep via-navy to-navy-light px-5 py-20 text-white">
+      <section
+        className="dot-grid relative overflow-hidden px-5 py-20 text-white"
+        style={{ backgroundColor: "#081D42" }}
+      >
         <GradientBlobs variant="dark" />
         <div className="relative mx-auto flex max-w-4xl flex-col items-center text-center">
           <Reveal>
