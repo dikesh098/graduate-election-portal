@@ -56,3 +56,10 @@ body {
   animation: float-slow 6s ease-in-out infinite;
 }
 
+/* Darker overrides for body/label text on light backgrounds — the default
+   Tailwind slate shades read as too light on white cards and sections.
+   These come after @tailwind utilities, so they win the cascade at equal
+   specificity without needing !important. */
+.text-slate-400 { color: #64748b; } /* was #94a3b8 */
+.text-slate-500 { color: #475569; } /* was #64748b */
+.text-slate-600 { color: #334155; } /* was #475569 */
